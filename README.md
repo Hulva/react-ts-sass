@@ -8,3 +8,16 @@ https://codesandbox.io/s/w02m7jm3q7
 
 
 https://github.com/r-park/todo-react-redux.git
+
+
+redux
+
+redux-orm
+
+connected-react-router
+
+reselect
+
+imuutable
+
+http://blog.isquaredsoftware.com/series/practical-redux

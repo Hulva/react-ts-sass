@@ -13,7 +13,7 @@ const TodoApp = (props: GlobalProps) => {
         <Header {...props} />
 
         <main>
-            <RequireAuthRoute authenticated={props.authenticated} rest={{exact: true, path: "/todo"}} component={TasksPage} />
+            <RequireAuthRoute authenticated={props.authenticated} exact path="/todo" component={TasksPage} />
         </main>
     </div>
 }

@@ -5,12 +5,14 @@ import { chatReducer } from "./chat/reducers";
 import { enthusiasmReducer } from "./enthusiasm/reducers";
 
 import * as utils from "../utils";
+import { notificationReducer } from "./notification/reducer";
 
 const rootReducer = combineReducers({
     router: connectRouter(utils.history),
     system: systemReducer,
     chat: chatReducer,
     enthusiasm: enthusiasmReducer,
+    notification: notificationReducer,
 });
 
 export type AppStore = ReturnType<typeof rootReducer>;
